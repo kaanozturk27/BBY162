@@ -8,3 +8,13 @@ for x in liste :
   print(x)
   
 #soru3
+sozluk = {"Elma" : "Ağaçta yetişen bir tür meyve" , "Salatalık" : "Fidan üzerinde büyüyen bir tür sebze" }
+
+x = sozluk["Elma"]
+y = sozluk ["Salatalık"]
+if x  == input ():
+  print(x)
+elif y == input() :
+  print (y)
+else:
+  print("Listede böyle bir öğe bulunmamaktadır")
