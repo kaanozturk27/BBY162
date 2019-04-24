@@ -10,11 +10,11 @@ for x in liste :
 #soru3
 sozluk = {"Elma" : "Ağaçta yetişen bir tür meyve" , "Salatalık" : "Fidan üzerinde büyüyen bir tür sebze" }
 
-x = sozluk["Elma"]
-y = sozluk ["Salatalık"]
-if x  == input ():
-  print(x)
-elif y == input() :
-  print (y)
+x =input("Bir kelime giriniz")
+
+if x == "Elma":
+  print(sozluk["Elma"])
+elif x == "Salatalık" :
+  print (sozluk["Salatalık"])
 else:
   print("Listede böyle bir öğe bulunmamaktadır")
